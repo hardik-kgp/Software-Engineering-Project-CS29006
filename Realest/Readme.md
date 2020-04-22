@@ -12,7 +12,20 @@ The Objective of Real Estate Management System is to provide a user friendly int
 ## Project
 The Real Estate Management System is completely implemented in the JAVA programming language and uses MySQL for database management. It provides an extremely interactive and user-friendly GUI for the various users of the system. It is also extremely flexible and can easily extend its scope beyond its intended purpose. The simplicity of the implementation makes it extremely fast and robust, while taking care not to lose its sophistication in the process. It also focuses on providing an exhaustive list of features that makes the buying and selling processes of the various properties very smooth.
 
+# Build Instructions
 
+- Setting up User
+	* Open Up mysql in terminal and login as root.
+	Run the following command to create a new user : - 
+	 > CREATE USER 'hardik'@'localhost' IDENTIFIED BY 'agghardik';
+	 > GRANT ALL PRIVILEGES ON * . * TO 'hardik'@'localhost';
+- Now a new user has been created.
+
+- Now login as this user
+	- $ mysql -u hardik -p (enter password as 'agghardik')
+- Now run the setup.sql file to setup the database of the project. 
+
+- Now you can build the project in Apache Netbeans and run it.
 ## Features
 
 - Provides two levels of provileges - Admin and Customer. 
