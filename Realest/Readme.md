@@ -1,5 +1,5 @@
 
-# Real Estate Management System Management System
+# Real Estate Management System
 
 This project was undertaken by [Hardik Aggarwal](https://www.github.com/hardik-kgp) under the guidance of Prof. Sudip Mishra for the course Software Engineering Laboratory (CS29006).
 
